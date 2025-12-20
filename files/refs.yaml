@@ -1,0 +1,48 @@
+benjamin_reproduction:
+    type: Book
+    title: 複製技術時代の芸術
+    author: Benjamin, Walter
+    editor: 佐々木基一
+    translator: 高木久雄
+    publisher: 晶文社
+    series: 晶文社クラシックス
+    page-total: 187
+    date: 1999-11
+    isbn: 978-4-7949-1266-4
+
+pollock_jackson_bijutsutecho:
+    type: Web
+    title: Jackson Pollock — アーティスト | 美術手帖
+    author: 美術手帖編集部
+    url: https://bijutsutecho.com/artists/230
+    site: 美術手帖
+
+artword_chance_operation:
+    type: Web
+    title: チャンス・オペレーション — Artwords® | artscape
+    author: 金子智太郎
+    url: https://artscape.jp/artword/6308/
+    site: artscape
+    updated: 2024-03-11
+
+systems_eshetics:
+  type: Web
+  title: SYSTEMS ESTHETICS
+  author: Burnham, J 
+  url: https://monoskop.org/images/0/03/Burnham_Jack_1968_Systems_Esthetics_Artforum.pdf
+
+# 書き方の参考 ---------------------
+harry:
+    type: Book
+    title: Harry Potter and the Order of the Phoenix
+    author: Rowling, J. K.
+    volume: 5
+    page-total: 768
+    date: 2003-06-21
+
+electronic:
+    type: Web
+    title: Ishkur's Guide to Electronic Music
+    serial-number: v2.5
+    author: Ishkur
+    url: http://www.techno.org/electronic-music-guide/
