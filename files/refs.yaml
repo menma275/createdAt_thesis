@@ -25,11 +25,38 @@ artword_chance_operation:
     site: artscape
     updated: 2024-03-11
 
-systems_eshetics:
+systems_esthetics:
   type: Web
   title: SYSTEMS ESTHETICS
   author: Burnham, J 
   url: https://monoskop.org/images/0/03/Burnham_Jack_1968_Systems_Esthetics_Artforum.pdf
+
+haacke_condensation_cube_macba:
+    type: Web
+    title: Condensation Cube — Work | MACBA Museum of Contemporary Art of Barcelona
+    author: MACBA Museum of Contemporary Art of Barcelona
+    url: https://www.macba.cat/en/obra/r1523-condensation-cube/
+    site: MACBA Museum of Contemporary Art of Barcelona
+    artist: Hans Haacke
+    work_title: Condensation Cube
+    date_created: 1963-1967
+    medium: Methacrylate_and_distilled_water
+    dimensions: 76_x_76_x_76_cm
+    acquisition_year: 2000
+
+moholy_nagy_em_2_moma:
+    type: Web
+    title: EM 2 (Telephone Picture) | MoMA Collection
+    author: The Museum of Modern Art
+    url: https://www.moma.org/collection/works/78747
+    site: The Museum of Modern Art
+    artist: László Moholy-Nagy
+    work_title: EM 2 (Telephone Picture)
+    date_created: 1923
+    medium: Porcelain enamel on steel
+    dimensions: 47.5_x_30.1_cm
+    credit: Gift of Philip Johnson in memory of Sibyl Moholy-Nagy
+
 
 # 書き方の参考 ---------------------
 harry:
