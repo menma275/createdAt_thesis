@@ -1,11 +1,8 @@
 #import "template.typ": thesis
 
 #show: thesis.with(
-  titleJA: "電子ペーパーを表示装置とする環境決定的変数による装置統合型ビジュアル生成手法の研究 \n ― 作品《createdAt:》の制作を通して ―",
-  titleEN: "A Study of an Integrated Visual Generation Method
-Using Environment-Determined Variables with an Electronic Paper Display
-— Through the Production of the Work “createdAt:” —
-",
+  titleJA: "電子ペーパーを用いた環境決定的変数による装置統合型ビジュアル生成手法の研究\n《createdAt:》制作を通して",
+  titleEN: "A Study of Device-Integrated Visual Generation Using Environment-Determined Variables with Electronic Paper Display: Through the Production of \"createdAt:\"",
   subtitleJA: "",
   subtitleEN: "",
   author: "坂村 空介",
