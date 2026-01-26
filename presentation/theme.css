@@ -1,0 +1,161 @@
+:root {
+  /*color settings*/
+  --fg: black;
+  --bg: white;
+  --mg: #fafafa;
+  --border: #ddd;
+
+  /*dark theme*/
+   --fg: white; 
+   --bg: black; 
+   --mg: #aaa; 
+   --border: #555; 
+
+  /*list spaceing*/
+  --space: 1rem;
+  --space-lg: 2.5rem;
+
+  /*aspect-ratio*/
+  /*--aspect: 16/9;*/
+  --aspect: 4/3;
+
+  /*font settings*/
+  font-size: 16px;
+  font-family: "Hiragino Kaku Gothic", sans-serif;
+  font-weight: semi-bold;
+  letter-spacing: 0.1rem;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  aspect-ratio: var(--aspect);
+}
+
+section {
+  margin: 0;
+  padding: 7rem;
+  /*width: 100%;*/
+  /*height: auto;*/
+  /*aspect-ratio: var(--aspect);*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space);
+  /*border-top: 1px solid var(--border);*/
+  /*border-bottom: 1px solid var(--border);*/
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+div {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  height: fit-content;
+  width: fit-content;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+h2 {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+h3 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+a {
+  color: var(--mg);
+  text-decoration: none;
+  font-weight: bold;
+}
+p {
+  margin: -0.5em 0;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg)
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-top: var(--space-sm);
+  margin-left: 1rem;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space);
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+section.horizontal {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  gap: var(--space-lg);
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+section.center {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0;
+}
+section.center p {
+  max-height: 100%;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: var(--space);
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+}
+td {
+  vertical-align: top;
+  padding-right: 1rem;
+}
