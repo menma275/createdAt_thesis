@@ -14,6 +14,7 @@
   /*list spaceing*/
   --space: 1rem;
   --space-lg: 2.5rem;
+  --margin: 7rem;
 
   /*aspect-ratio*/
   /*--aspect: 16/9;*/
@@ -39,7 +40,7 @@ body {
 
 section {
   margin: 0;
-  padding: 7rem;
+  padding: var(--margin);
   /*width: 100%;*/
   /*height: auto;*/
   /*aspect-ratio: var(--aspect);*/
@@ -151,6 +152,15 @@ section.center p {
   display: flex;
   gap: var(--space);
 }
+
+.credit {
+  position: fixed;   /* フローから外す */
+  width: fit-content;
+  bottom: 12px;
+  right: width/2;
+  text-align: right;
+}
+
 table {
   border-collapse: separate;
   border-spacing: 0 1rem;
