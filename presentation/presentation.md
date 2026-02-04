@@ -187,10 +187,11 @@ John Cage
 作品情報を画像データのようにデジタルデータとして保存しないことによって、複製可能性を排除しながら、装置とビジュアル作品が不可分な状態を実現しました。
 -->
 ---
-![bg contain](img/01.jpg)
-![bg contain](img/02.jpg)
-![bg contain](img/03.jpg)
-![bg contain](img/04.jpg)
+<video src="img/demo.mov" loop muted autoplay width="90%" style="display: block; margin: 0 auto;"></video>
+<!-- ![bg contain](img/01.jpg) -->
+<!-- ![bg contain](img/02.jpg) -->
+<!-- ![bg contain](img/03.jpg) -->
+<!-- ![bg contain](img/04.jpg) -->
 
 ---
 
