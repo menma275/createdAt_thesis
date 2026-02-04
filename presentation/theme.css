@@ -127,7 +127,10 @@ img {
   aspect-ratio: 1;
   object-fit: contain;
 }
-
+a {
+  font-size: 0.75rem;
+  opacity: 0.5;
+}
 section.horizontal {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(0, 1fr));

@@ -69,6 +69,7 @@ marp: true
 # NFTの唯一性の保証は「外部的」
 
 - 付加情報的な担保手法であり、作品生成・提示の構造自体を大きく変えたものではない
+<https://en.wikipedia.org/wiki/CryptoPunks>
 
 ![bg right contain](img/Cryptopunks.jpg)
 
@@ -105,6 +106,7 @@ NFTとは、非代替性トークンの略称であり、ブロックチェー�
 
 Jackson Pollock
 空中から塗料を滴らせることで抽象的な描画を行う
+<https://www.jackson-pollock.org/number-1.jsp>
 
 ![bg right contain](img/number-1.jpg)
 
@@ -120,6 +122,7 @@ Jackson Pollockは、アクションペインティングにおいて、空中�
 
 John Cage
 コイントスによって作譜するなど、作家による意図を排除するために偶然性を利用して制作
+<https://en.wikipedia.org/wiki/Music_of_Changes>
 
 ![bg right contain](img/Music-of-changes-4-1.gif)
 
@@ -156,6 +159,7 @@ John Cage
 
 - SystemArtの文脈では、アート作品は「生成される過程」こそが本質であり、環境との相互作用が重要
 - → 環境と作品が強く紐づく手法をとる
+<https://www.macba.cat/en/obra/r1523-condensation-cube/>
 
 ![bg right contain](img/CondensationCube.jpg)
 <!--
