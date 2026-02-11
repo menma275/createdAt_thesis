@@ -57,6 +57,33 @@ moholy_nagy_em_2_moma:
     dimensions: 47.5_x_30.1_cm
     credit: Gift of Philip Johnson in memory of Sibyl Moholy-Nagy
 
+artsper_nft_from_boom_to_bust:
+    type: Web
+    title: NFT Art from boom to bust — Art Market
+    author: Artsper
+    url: https://partners.artsper.com/blog/nft-art-from-boom-to-bust
+    site: Artsper Partners Blog
+    date_published: 2025-06-24
+
+fairfield_tokenized_nft:
+    type: Article
+    title: Tokenized The Law of Non-Fungible Tokens and Unique Digital Property
+    author: Fairfield, Joshua A.T.
+    journal: Indiana Law Journal
+    volume: 97
+    issue: 4
+    pages: 1261–1312
+    date: 2022
+    url: https://scholarlycommons.law.wlu.edu/cgi/viewcontent.cgi?article=1738&context=wlufac
+
+
+business_research_insights_e_ink_market:
+    type: Web
+    title: E Ink Market Report to 2026-2035
+    author: Business Research Insights
+    url: https://www.businessresearchinsights.com/market-reports/e-ink-market-124024
+    site: Business Research Insights
+    date_last_updated: 2026-01-26
 
 # 書き方の参考 ---------------------
 harry:
