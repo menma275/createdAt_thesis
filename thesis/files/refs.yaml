@@ -85,6 +85,43 @@ business_research_insights_e_ink_market:
     site: Business Research Insights
     date_last_updated: 2026-01-26
 
+raspberry_pi_zero_2_w_product_page:
+    type: Web
+    title: Raspberry Pi Zero 2 W
+    author: Raspberry Pi Ltd
+    url: https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
+    site: Raspberry Pi
+
+waveshare_7_5inch_hd_e_paper_hat_wiki:
+    type: Web
+    title: 7.5inch HD e-Paper HAT (B) — Wiki
+    author: Waveshare
+    url: https://www.waveshare.com/wiki/7.5inch_HD_e-Paper_HAT_(B)
+    site: Waveshare Wiki
+
+python_docs_hashlib:
+    type: Web
+    title: hashlib — Secure hashes and message digests
+    author: Python Software Foundation
+    url: https://docs.python.org/3/library/hashlib.html
+    site: Python 3 Documentation
+
+geocoder_readthedocs:
+    type: Web
+    title: geocoder Documentation
+    author: Carriere, Denis
+    url: https://geocoder.readthedocs.io/
+    site: Read the Docs
+
+elias_perlin_noise_model:
+    type: Web
+    title: Perlin Noise
+    author: Elias, Hugo
+    url: https://web.archive.org/web/20080724063449/http://freespace.virgin.net/hugo.elias/models/m_perlin.htm
+    site: Web Archive
+    date_archived: 2008-07-24
+    original_site: freespace.virgin.net
+  #
 # 書き方の参考 ---------------------
 harry:
     type: Book
