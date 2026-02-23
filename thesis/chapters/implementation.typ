@@ -45,17 +45,21 @@
 
 電子ペーパーは出力の特性から一覧や頻繁な切り替えが困難なことから、生成した描画表現を撮影・デジタルスキャンしアーカイブとする。本作品は複製・保存するという行為を否定するスタンスをとり、完全な複製を作り出すことができない。デジタルスキャンや撮影はこの制約の中であくまでもアーカイブという立場から作品を保存する行為である。
 
-#figure(
-  grid(
-    columns: 2,
-    rows: 2,
-    gutter: 14pt,
-    image("../images/epaper_scan01.jpg"),
-    image("../images/epaper_scan02.jpg"),
-    image("../images/epaper_scan03.jpg"),
-    image("../images/epaper_scan04.jpg"),
-  ),
-  caption: [
-    電子ペーパーのスキャン画像
+#align(center)[
+  #box(width: 80%)[
+    #figure(
+      grid(
+        columns: 2,
+        rows: 2,
+        gutter: 14pt,
+        image("../images/epaper_scan01.jpg", width: 100%),
+        image("../images/epaper_scan02.jpg", width: 100%),
+        image("../images/epaper_scan03.jpg", width: 100%),
+        image("../images/epaper_scan04.jpg", width: 100%),
+      ),
+      caption: [
+        電子ペーパーのスキャン画像
+      ]
+    ) <epaper_scan>
   ]
-) <epaper_scan>
+]
