@@ -62,12 +62,13 @@
     leading: leading,
   )
   
-  let year = datetime.today().year()
+  let today = datetime.today()
+  let year = if today.month() >= 4 { today.year() } else { today.year() - 1 }
   
   // 表紙 ------------------------------------------------
   align(center)[
     #v(20.8pt)
-    #text(size: textLarge)[学士論文]
+    #text(size: textLarge)[卒業論文]
     #v(32pt)
     #text(size: text2XLarge, weight: "bold")[#titleJA]
     #v(24pt)
