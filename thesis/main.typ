@@ -34,4 +34,7 @@
 #include "chapters/conclusion.typ"
 #pagebreak()
 
+#include "chapters/afterword.typ"
+#pagebreak()
+
 #bibliography("files/refs.yaml", title: "参考文献")
