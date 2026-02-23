@@ -82,7 +82,7 @@
     #v(0pt)
     #text[#affiliation]
     #v(32pt)
-    #text(size: textNormalize)[提出日：#year 年1月31日]
+    #text(size: textNormalize)[提出日：#today.year() 年 #today.month() 月 #today.day() 日]
   ]
   pagebreak()
   
